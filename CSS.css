@@ -1,0 +1,286 @@
+body{
+    background-image: url('background.jpg');
+}
+
+.flexbox-container{
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    color: #FFFFFF;
+
+}
+
+/* Nagłówek */
+.space{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+   
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+   
+}
+
+.main{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.starlink{
+    font-weight: bold;
+    width: 33%;
+    
+}
+
+.rocket{
+    font-weight: bold;
+    width: 33%;
+}
+
+.roadster{
+    font-weight: bold;
+    width: 33%;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.Table1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    
+}
+
+.starlinkMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuStarlink{
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+
+.Table2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    
+}
+
+.rocketsMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuRockets{
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+
+.nameRokets{
+    width: 15%;
+}
+.dateRokest{
+    width: 15%;
+}
+.descriptionRokets{
+    width: 40%;
+}
+.moreRokets{
+    width: 20%;
+}
+
+.Table3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    
+}
+
+.roadsterMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuRoadster{
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.dateRoadster{
+    width: 15%;
+}
+.descriptionRoadster{
+    width: 40%;
+}
+.moreRoadster{
+    width: 20%;
+}
+
+.Table1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+.starlinkMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuStarlink{
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+
+.Table2-1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+.rocketsInfoMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuMoreRockets{
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.dimensionsRokets{
+    width: 10%;
+}
+.weightRokest{
+    width: 10%;
+}
+.picturesRokets{
+    width: 35%;
+}
+.costRokets{
+    width: 10%;
+}
+
+.engineRokets{
+    width: 35%;
+}
+
+#page{
+    color: #FFFFFF;
+}
+
+#lastPage{
+    color: #FFFFFF;
+}
+
+
+.Table3-1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+.roadsterInfoMain{
+    width: 90%;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+}
+
+.menuMoreRoadster{
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+
+.marsDistanceRoadster{
+    width: 10%;
+}
+.earthDistanceRoadster{
+    width: 10%;
+}
+.picturesRoadster{
+    width: 35%;
+}
+
+
+
+

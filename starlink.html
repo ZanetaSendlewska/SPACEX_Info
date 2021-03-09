@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Space X</title>
+    <link rel="stylesheet" href="CSS.css">
+    <meta name="description" content="Space X" />
+    <meta name="author" content="Nazwa Firmy, Miejscowość" />
+    <meta name="keywords" content="Space X, Musk" />
+    <meta name="robots" content="none" />
+</head>
+
+<body onload="loadStarlinks()">
+    <div class="flexbox-container">
+        <div class="space">
+            <a href="main.html">SPACE X</a>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="starlink">
+            <a href="starlink.html">Starlink</a>
+        </div>
+        <div class="rocket">
+            <a href="rocket.html">Rockets</a>
+        </div>
+        <div class="roadster">
+            <a href="roadster.html">Roadster info</a>
+        </div>
+    </div><br>
+
+    <table class="Table1" border="1" id="Table1">
+        <tr>
+            <td colspan="3" class="starlinkMain">STARLINK</td>
+        </tr>
+        <tr class="menuStarlink">
+            <td class="idStarlink">ID</td>
+            <td class="nameStarlink">Name</td>
+            <td class="dateStarlink">Launch Date </td>
+        </tr>
+
+    </table>
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+    <a href="javascript:nextPage()" id="btn_next">Next</a>
+    <span id="page">page: 1</span>
+    <span id="lastPage"></span>
+
+</body>
+<script type="text/javascript" src="starlink.js"> </script>
+</html>
